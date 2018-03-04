@@ -17,7 +17,7 @@ class SGD:
 		self.arrdelta = []
 
 	def random_theta(self):
-		self.theta = [ [0.5, 0.1, 0.1, 0.9, 0.9] ]
+		self.theta = [ [0.1, 0.15, 0.2, 0.25, 0.3] ]
 
 	def change_theta(self):
 		old = []
